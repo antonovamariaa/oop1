@@ -17,9 +17,10 @@ public class Main {
         for (HotDrink b : hotVendingMachine.getHotDrinks()) {
             System.out.println(b);
         }
-        
+
         System.out.println();
         System.out.println(hotVendingMachine.getProduct(300, 80));
+        System.out.println(hotVendingMachine.getProduct("black tea", 500, 80));
         
     }
 
